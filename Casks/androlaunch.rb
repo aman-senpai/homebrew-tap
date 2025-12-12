@@ -1,11 +1,12 @@
 cask "androlaunch" do
-  url "https://github.com/aman-senpai/AndroLaunch/releases/download/v0.3.3/AndroLaunch.zip"
+  # CORRECTED URL to match the asset name on GitHub Releases (v0.3.3.zip)
+  url "https://github.com/aman-senpai/AndroLaunch/releases/download/v0.3.3/v0.3.3.zip"
   name "AndroLaunch"
   desc "macOS menu bar application for managing Android devices."
   homepage "https://github.com/aman-senpai/AndroLaunch"
 
-  # The calculated SHA-256 checksum:
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  # CORRECTED SHA-256 verified from the GitHub release page
+  sha256 "65f7cf17aefc61282d517e7efbe26e9fb139b7e3018bee4baf458fc9e11779a4"
 
   # This is the core installation instruction for a macOS application bundle.
   app "AndroLaunch.app"
