@@ -1,6 +1,6 @@
 cask "zenshelf" do
-  version "0.1"
-  sha256 "4ce6dd5392f6221bb8556f6ff8310acce07a7e4c6f47bc0de5a0fe1b2d4d0028"
+  version "1.1.0"
+  sha256 "188e88670cd9248764f07fb7cadacef242c892be41d03e3489e05b67c2abecf8"
 
   url "https://github.com/aman-senpai/Zenshelf/releases/download/v#{version}/Zenshelf-v#{version}-macos-universal.zip"
   name "ZenShelf"
