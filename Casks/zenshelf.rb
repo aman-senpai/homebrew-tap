@@ -7,8 +7,6 @@ cask "zenshelf" do
   desc "Menu bar companion for Zen Browser"
   homepage "https://github.com/aman-senpai/Zenshelf"
 
-  depends_on macos: ">= 26.0"
-
   app "Zenshelf.app"
 
   zap trash: [
